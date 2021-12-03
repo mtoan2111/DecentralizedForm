@@ -1,0 +1,37 @@
+.root {
+    min-width: 400px;
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.action_title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.action_area {
+    margin: 40px 0 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.action_btn {
+    width: 48%;
+    padding: 10px 0;
+    border: 1px solid var(--color-border);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.action_btn_confirm {
+    width: 48%;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background: var(--color-gradient);
+    color: var(--color-text-button);
+}

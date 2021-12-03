@@ -1,0 +1,80 @@
+.root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px 15px;
+    box-shadow: var(--color-boxshadow);
+}
+
+.license {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    width: 400px;
+    height: 100%;
+}
+
+.logo {
+    width: 155px;
+    height: 100%;
+    position: relative;
+    color: black;
+}
+
+.logo img {
+    color: var(--color-primary);
+}
+
+.term_link {
+    text-decoration: underline;
+}
+
+.term_link_color_secondary {
+    color: var(--color-link);
+}
+
+.term {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    font-size: 13px;
+    color: var(--color-secondary);
+}
+
+.detail {
+    text-align: center;
+    font-size: 13px;
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.qa {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+.qa_quest {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+
+.qa_comm {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.qa_comm_link {
+    color: var(--color-link);
+}

@@ -1,0 +1,41 @@
+<svg width="1920" height="821" viewBox="0 0 1920 821" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_5407:13987)">
+<rect width="1920" height="821" fill="#EDEFF3"/>
+<g filter="url(#filter0_f_5407:13987)">
+<circle cx="1378" cy="1015" r="912" fill="#FF2222" fill-opacity="0.32"/>
+</g>
+<g style="mix-blend-mode:hard-light">
+<circle cx="262" cy="1117" r="760" fill="#2421C3" fill-opacity="0.08"/>
+</g>
+<g style="mix-blend-mode:hard-light">
+<circle cx="208" cy="51" r="576" fill="#2BE6FF" fill-opacity="0.16"/>
+</g>
+<g style="mix-blend-mode:screen" filter="url(#filter1_f_5407:13987)">
+<circle cx="1130" cy="-127" r="696" fill="white"/>
+</g>
+<g filter="url(#filter2_b_5407:13987)">
+<rect width="1920" height="821" fill="#C4C4C4" fill-opacity="0.01"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_5407:13987" x="-226.282" y="-589.282" width="3208.56" height="3208.56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="346.141" result="effect1_foregroundBlur_5407:13987"/>
+</filter>
+<filter id="filter1_f_5407:13987" x="44.5915" y="-1212.41" width="2170.82" height="2170.82" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="194.704" result="effect1_foregroundBlur_5407:13987"/>
+</filter>
+<filter id="filter2_b_5407:13987" x="-735.549" y="-735.549" width="3391.1" height="2292.1" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="367.775"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_5407:13987"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_5407:13987" result="shape"/>
+</filter>
+<clipPath id="clip0_5407:13987">
+<rect width="1920" height="821" fill="white"/>
+</clipPath>
+</defs>
+</svg>

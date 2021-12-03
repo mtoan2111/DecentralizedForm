@@ -1,0 +1,32 @@
+.root {
+    display: flex;
+    align-items: center;
+}
+
+.snack_area {
+    margin-top: 50px;
+}
+
+.no_question_area {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.result_link {
+    color: var(--color-link);
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.result_link:hover {
+    text-decoration: underline;
+}
+
+.question_meta_input {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.question_meta_root {
+    border-bottom: 1px solid var(--color-border);
+}

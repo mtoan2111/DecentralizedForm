@@ -1,0 +1,48 @@
+.root {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.root:hover > div,
+.root:hover svg {
+    color: var(--color-active) !important;
+    font-weight: 500;
+}
+
+.active {
+    color: var(--color-active) !important;
+    font-weight: 500;
+}
+
+.nav_icon {
+    width: 48;
+}
+
+.nav_icon svg {
+    color: var(--color-secondary) !important;
+}
+
+.nav_icon_active {
+    composes: nav_icon;
+    composes: active;
+}
+
+.nav_icon_active svg {
+    color: var(--color-active) !important;
+    font-weight: 500;
+}
+
+.nav_content {
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 10px;
+    color: var(--color-secondary);
+}
+
+.nav_content_active {
+    composes: nav_content;
+    composes: active;
+}

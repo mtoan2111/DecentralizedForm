@@ -1,0 +1,65 @@
+.root {
+    display: flex;
+    min-width: 600px;
+    flex-direction: column;
+}
+
+.form_title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0 20px 0;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 10px;
+}
+
+.form_answer {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.answer_userId {
+    color: var(--color-active);
+}
+
+.answer_area {
+    padding: 20px;
+    margin: 10px 0px;
+    border-radius: 24px;
+    background: var(--color-background);
+    box-shadow: var(--color-boxshadow);
+}
+
+.answer_type {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 10px;
+}
+
+.answer_title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.answer {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.answer_skeleton {
+    margin: 10px 0px;
+    border-radius: 24px;
+    background: var(--color-background);
+    box-shadow: var(--color-boxshadow);
+}
+
+.answer_skeleton_item {
+    height: 140px;
+    border-radius: 24px;
+}

@@ -1,0 +1,20 @@
+.root {
+    min-width: 600px;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dashboard_join {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.search_area {
+    width: 100%;
+    display: flex;
+}

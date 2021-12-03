@@ -1,0 +1,79 @@
+.root {
+    display: flex;
+    min-width: 600px;
+    width: 30%;
+    flex-direction: column;
+    height: max-content;
+}
+
+.your_form_title {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0 20px;
+    /* border-bottom: 1px solid var(--color-border); */
+    padding-bottom: 10px;
+}
+
+.your_form_text {
+    margin: 8px 0px;
+}
+
+.nothing_text {
+    font-size: 18px;
+    font-style: italic;
+    color: var(--color-secondary);
+    margin: 20px;
+}
+
+.your_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.create_form_input {
+    border: none;
+}
+
+.participant_root {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: var(--color-background);
+    box-shadow: var(--color-boxshadow);
+    border-radius: 24px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.participant_area {
+    display: flex;
+    width: 48%;
+    margin: 15px 0px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.participant_area_avata {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--color-text-button);
+}
+
+.participant_area_name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: var(--color-link);
+}
+
+.participant_area:hover > .participant_area_name {
+    text-decoration: underline;
+}
