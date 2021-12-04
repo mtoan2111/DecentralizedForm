@@ -84,6 +84,7 @@ Let work with contract first.
 1. dApp
 
     - First of all, we install the node modules
+  
     ```bash
     cd /dapp/cform
     yarn
@@ -92,15 +93,26 @@ Let work with contract first.
     ```
 
     - Update the contract name in the utility file
+  
     ```bash
     cd /backed
     vim /config.js
     update the contract name as you want
     ```
-    
+
     - The last, run server
+  
     ```bash
     yarn dev
     or
     npm run dev
     ```
+
+# If you have any questions, feel free to let me know
+
+My contact
+
+```
+Email: toan93.hust@gmail.com
+Skype: toan93.hust@gmail.com
+```
