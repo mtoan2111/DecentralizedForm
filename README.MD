@@ -29,7 +29,7 @@ This project is inspired by Google Forms.
 - This project includes three folder
   - contract: Contains all the contract logic code of dForm. It was wrote in AssemblyScript
   - dapp: Contains all the web app code of dForm. This web app use the NextJs Framework
-  - docs: Contains some figs, documentations (Toto)
+  - docs: Contains some figs, documentations (Todo)
 
 1. Contract
 
