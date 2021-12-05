@@ -8,7 +8,7 @@ This project is inspired by Google Forms.
 
 - After that, all the answers will be acquired and show the statistics for the owner
 
-## User case Diagram
+## Usecase Diagram
 
 ![dForm UserCase](./docs/usercase/usercase.drawio.svg "Title")
 
