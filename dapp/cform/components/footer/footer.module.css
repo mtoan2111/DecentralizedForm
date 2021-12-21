@@ -17,10 +17,11 @@
 }
 
 .logo {
-    width: 155px;
+    width: 70px;
     height: 100%;
     position: relative;
     color: black;
+    margin: 0 10px;
 }
 
 .logo img {
@@ -41,6 +42,7 @@
     justify-items: center;
     font-size: 13px;
     color: var(--color-secondary);
+    padding-left: 40px;
 }
 
 .detail {

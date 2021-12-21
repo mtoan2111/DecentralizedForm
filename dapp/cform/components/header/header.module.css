@@ -9,10 +9,11 @@
 }
 
 .logo {
-    width: 155px;
+    width: 70px;
     height: 100%;
     position: relative;
     color: black;
+    margin: 0 10px;
 }
 
 .nav {

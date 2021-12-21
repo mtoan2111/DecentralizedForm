@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './footer.module.css';
 import Image from 'next/image';
-import Logo from './logo.svg';
+import Logo from './lnc.svg';
 import Link from 'next/link';
 
 export default class Footer extends React.Component {
