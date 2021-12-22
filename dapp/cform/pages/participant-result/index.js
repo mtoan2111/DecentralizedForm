@@ -79,7 +79,6 @@ class ParticipantResult extends React.Component {
                                 answers = [...answers, ...(raw?.data || [])];
                             });
                             this.answers = answers;
-                            ret = false;
                             this.setState({
                                 isViewUpdated: !this.state.isViewUpdated,
                             });
