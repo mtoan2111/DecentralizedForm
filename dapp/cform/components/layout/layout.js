@@ -43,9 +43,9 @@ export default class Layout extends React.Component {
                 </div>
                 <div className={styles.body}>
                     <div className={styles.main}>{children}</div>
-                    <div className={styles.footer}>
+                    {/* <div className={styles.footer}>
                         <Footer />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         );

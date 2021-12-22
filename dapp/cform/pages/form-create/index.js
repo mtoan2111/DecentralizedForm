@@ -52,7 +52,14 @@ class FormCreate extends React.Component {
                 50000000000000,
             )
             .then((id) => {
-                Router.push(`form/${id}`);
+                if (id) {
+                    Router.push(`form/${id}`);
+                } else {
+                    this.onShowResult({
+                        type: 'error',
+                        msg: String(err),
+                    });
+                }
             })
             .catch((err) => {
                 console.log(err);

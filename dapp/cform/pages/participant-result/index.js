@@ -55,7 +55,7 @@ class ParticipantResult extends React.Component {
         this.answers = [];
         this.raws = [];
         page_arr.map((page, index) => {
-            contract
+            await contract
                 .get_answer_statistical(
                     {
                         userId: u,
@@ -79,13 +79,14 @@ class ParticipantResult extends React.Component {
                                 answers = [...answers, ...(raw?.data || [])];
                             });
                             this.answers = answers;
-                            console.log(this.answers);
+                            ret = false;
                             this.setState({
                                 isViewUpdated: !this.state.isViewUpdated,
                             });
                         }
                     }
-                });
+                })
+                .catch((err) => {});
         });
     };
 
