@@ -14,7 +14,10 @@ export default class Footer extends React.Component {
             <div className={styles.root}>
                 <div className={styles.license}>
                     <div className={styles.logo}>
-                        <Image src={Logo} layout='fill' alt={'Error'} priority={true} />
+                        <div className={styles.logo_dForm}>dForm |</div>
+                        <div className={styles.logo_lnc}>
+                            <Image src={Logo} layout='fill' alt={'Error'} priority={true} />
+                        </div>
                     </div>
                     <div className={styles.term}>
                         <div>© 2021 NEAR Inc. All Rights Reserved.</div>

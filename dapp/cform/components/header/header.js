@@ -25,7 +25,10 @@ class Header extends React.Component {
         return (
             <div className={styles.root}>
                 <div className={styles.logo}>
-                    <Image src={Logo} layout='fill' alt={'Error'} priority={true} />
+                    <div className={styles.logo_dForm}>dForm |</div>
+                    <div className={styles.logo_lnc}>
+                        <Image src={Logo} layout='fill' alt={'Error'} priority={true} />
+                    </div>
                 </div>
                 <div className={styles.nav}>
                     <div className={styles.nav_item}>

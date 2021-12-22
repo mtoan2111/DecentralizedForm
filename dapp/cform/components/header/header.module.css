@@ -9,6 +9,23 @@
 }
 
 .logo {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    min-width: 200px;
+    /* position: relative; */
+    color: black;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.logo_dForm {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.logo_lnc {
     width: 70px;
     height: 100%;
     position: relative;
@@ -17,7 +34,6 @@
 }
 
 .nav {
-    padding-left: 40px;
     flex: 1;
     display: flex;
     justify-content: flex-start;
