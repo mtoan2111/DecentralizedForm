@@ -68,7 +68,7 @@ class Question extends React.Component {
             });
         }
 
-        if (title === '' || title === null) {
+        if (title === '' || title === null || typeof title === 'undefined') {
             return this.onShowResult({
                 type: 'error',
                 msg: 'Question title could not be empty',
@@ -122,6 +122,7 @@ class Question extends React.Component {
                     this.onceAnswer = [];
                     this.setState({
                         value: null,
+                        title: '',
                     });
                     this.onShowResult({
                         type: 'success',
