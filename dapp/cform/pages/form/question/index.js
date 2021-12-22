@@ -36,6 +36,7 @@ class Question extends React.Component {
             openLoading: false,
             snackMsg: '',
             alertType: 'success',
+            value: null,
         };
     }
 
@@ -47,6 +48,7 @@ class Question extends React.Component {
         }
 
         this.setState({
+            value: newValue,
             isViewUpdated: !this.state.isViewUpdated,
         });
     };
@@ -118,6 +120,9 @@ class Question extends React.Component {
                 if (question) {
                     this.qTypeId = null;
                     this.onceAnswer = [];
+                    this.setState({
+                        value: null,
+                    });
                     this.onShowResult({
                         type: 'success',
                         msg: 'New question has been added to this form',
@@ -290,7 +295,7 @@ class Question extends React.Component {
     };
 
     render() {
-        const { openSnack, openLoading, snackMsg, alertType } = this.state;
+        const { openSnack, openLoading, snackMsg, alertType, value } = this.state;
         return (
             <>
                 <Notify openLoading={openLoading} openSnack={openSnack} alertType={alertType} snackMsg={snackMsg} onClose={this.onCloseSnack} />
@@ -304,6 +309,7 @@ class Question extends React.Component {
                                     className={styles.question_type_cbx}
                                     disablePortal
                                     id='combo-box-demo'
+                                    value={value}
                                     options={this.questionType}
                                     getOptionLabel={(option) => option.title}
                                     sx={{ width: 300 }}
