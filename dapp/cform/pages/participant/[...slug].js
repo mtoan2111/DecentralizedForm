@@ -21,7 +21,7 @@ class FormCreate extends React.Component {
         contract
             ?.get_form_count?.(
                 {},
-                // 300000000000000
+                50000000000000
             )
             .then((total) => {
                 this.onGetTotalForm({ total });
@@ -41,7 +41,7 @@ class FormCreate extends React.Component {
                 {
                     title: this.title,
                 },
-                // 300000000000000,
+                50000000000000,
             )
             .then((id) => {
                 Router.push(`form/${id}`);
@@ -67,7 +67,7 @@ class FormCreate extends React.Component {
                         {
                             page: index + 1,
                         },
-                        // 300000000000000,
+                        50000000000000,
                     )
                     .then((data) => {
                         if (data) {

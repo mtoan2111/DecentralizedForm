@@ -155,7 +155,7 @@ class FormDetail extends React.Component {
                     title,
                     meta,
                 },
-                // 300000000000000,
+                50000000000000,
             )
             .then((question) => {
                 if (question) {
@@ -212,7 +212,7 @@ class FormDetail extends React.Component {
                 {
                     id,
                 },
-                // 300000000000000,
+                50000000000000,
             )
             .then((ret) => {
                 if (ret) {
@@ -270,7 +270,7 @@ class FormDetail extends React.Component {
                 {
                     id: this.formId,
                 },
-                // 300000000000000,
+                50000000000000,
             )
             .then((ret) => {
                 if (ret) {
@@ -285,7 +285,7 @@ class FormDetail extends React.Component {
             .catch((err) => {
                 console.log(err);
                 this.onShowResult({
-                    type: 'err',
+                    type: 'error',
                     msg: String(err),
                 });
             });
@@ -294,14 +294,14 @@ class FormDetail extends React.Component {
     onUpdatedFormAccept = ({ title }) => {
         if (title === '') {
             return this.onShowResult({
-                type: 'err',
+                type: 'error',
                 msg: 'Title could not be empty',
             });
         }
 
         if (title === this.form.title) {
             return this.onShowResult({
-                type: 'err',
+                type: 'error',
                 msg: 'Title could not be the same',
             });
         }
@@ -318,7 +318,7 @@ class FormDetail extends React.Component {
                     id: this.formId,
                     title,
                 },
-                // 300000000000000,
+                50000000000000,
             )
             .then((ret) => {
                 if (ret) {
@@ -337,7 +337,7 @@ class FormDetail extends React.Component {
             .catch((err) => {
                 console.log(err);
                 this.onShowResult({
-                    type: 'err',
+                    type: 'error',
                     msg: String(err),
                 });
             });

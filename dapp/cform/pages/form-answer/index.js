@@ -88,7 +88,7 @@ class FormAnswer extends React.Component {
         if (typeof answer === 'undefined' || answer === null || answer === '') {
             return this.onShowResult({
                 type: 'error',
-                msg: 'A',
+                msg: 'Please choose or type your answer first',
             });
         }
 
@@ -103,10 +103,11 @@ class FormAnswer extends React.Component {
                     questionId,
                     answer,
                 },
-                // 300000000000000,
+                50000000000000,
             )
             .then((ret) => {
                 if (ret) {
+                    this.question = {};
                     this.onShowResult({
                         type: 'success',
                         msg: 'Answer has been submited',
