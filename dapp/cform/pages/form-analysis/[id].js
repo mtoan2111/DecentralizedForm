@@ -105,7 +105,7 @@ class FormAnalysisDetail extends React.Component {
                     style={{
                         background: this.onRandomColorBg(),
                     }}>
-                    {index}
+                    {index + 1}
                 </div>
                 <div className={styles.participant_area_name}>{participant}</div>
             </div>
