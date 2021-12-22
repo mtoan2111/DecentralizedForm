@@ -19,7 +19,7 @@ class FormCreate extends React.Component {
     componentDidMount() {
         const { contract } = this.props.wallet;
         contract
-            ?.get_form_count?.({}, 300000000000000)
+            ?.get_form_count?.({}, // 300000000000000)
             .then((total) => {
                 this.onGetTotalForm({ total });
                 this.setState({
@@ -38,7 +38,7 @@ class FormCreate extends React.Component {
                 {
                     title: this.title,
                 },
-                300000000000000,
+                // 300000000000000,
             )
             .then((id) => {
                 Router.push(`form/${id}`);
@@ -64,7 +64,7 @@ class FormCreate extends React.Component {
                         {
                             page: index + 1,
                         },
-                        300000000000000,
+                        // 300000000000000,
                     )
                     .then((data) => {
                         if (data) {
