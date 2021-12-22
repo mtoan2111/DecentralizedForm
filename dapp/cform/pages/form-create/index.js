@@ -40,6 +40,12 @@ class FormCreate extends React.Component {
     }
 
     onCreateNewFormBtnClicked = () => {
+        if (this.title === '') {
+            return this.onShowResult({
+                type: 'error',
+                msg: 'Type the form name first.',
+            });
+        }
         this.setState({
             openLoading: true,
         });
@@ -52,12 +58,12 @@ class FormCreate extends React.Component {
                 50000000000000,
             )
             .then((id) => {
-                if (id) {
+                if (id && id !== '') {
                     Router.push(`form/${id}`);
                 } else {
                     this.onShowResult({
                         type: 'error',
-                        msg: String(err),
+                        msg: 'Some thing went wrong. Try again. Pls',
                     });
                 }
             })

@@ -55,7 +55,7 @@ class ParticipantResult extends React.Component {
         this.answers = [];
         this.raws = [];
         page_arr.map((page, index) => {
-            await contract
+            contract
                 .get_answer_statistical(
                     {
                         userId: u,
