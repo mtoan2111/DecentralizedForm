@@ -19,7 +19,10 @@ class FormCreate extends React.Component {
     componentDidMount() {
         const { contract } = this.props.wallet;
         contract
-            ?.get_form_count?.({}, // 300000000000000)
+            ?.get_form_count?.(
+                {},
+                // 300000000000000
+            )
             .then((total) => {
                 this.onGetTotalForm({ total });
                 this.setState({
